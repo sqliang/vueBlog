@@ -1,0 +1,158 @@
+/*通用样式*/
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+  height: 100%;
+/*background:#ebf0f0;*/
+  /*百分百撑起高度*/
+}
+body{
+  margin:0;
+  -webkit-font-smoothing:antialiased;
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    color:#404040;
+    height: 100%;
+    overflow-y: scroll;
+}
+/*样式重置*/
+a{
+  text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/*登录注册通用样式*/
+.container{
+  margin:0;
+  background:url('../img/bg.jpg') no-repeat center;
+  background-size: cover;
+  min-width: 680px;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+.title{
+  text-align: center;
+  margin: 0px auto 40px auto;
+  text-align: center;
+  color: #505458;
+}
+.login_form,.reg_form{
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  background-color: #F9FAFC;
+  margin: 150px auto 20px auto ;
+  border: 2px solid #8492A6;
+  width: 350px;
+  padding: 35px 35px 15px 35px;
+  opacity: 0.6;
+}
+.reg_button,.login_button{
+  margin-top: 20px;
+}
+pre{
+   /*white-space: pre-wrap;*/
+}
+code{
+  color:#657b83;
+  background: #f6f6f6;
+  font: 16px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  padding: .2rem .4rem;
+   max-width: 100%;
+   border-radius: 5px;
+}
+li code,
+p code{
+  word-wrap: break-word;
+  /* line-height:  */
+  border-radius: 5px;
+  font-size: 14px;
+}
+.article pre code{
+  color:#8492A6;
+  display: block;
+  background: #23241f;
+  font: 16px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  border-radius: 5px;
+   max-width: 100%;
+   line-height: 1.5em;
+   padding: .4rem .6rem;
+   overflow-x: auto;
+}
+.article img,.showArtilce img{
+  max-width: 100%;
+  display: block;
+}
+.article a{
+   color: #3194d0;
+}
+.article a:hover {
+    text-decoration: underline;
+}
+.article ul {
+    padding-left: 2.2rem;
+  }
+.article h1{
+  font-size: 26px;
+}
+.article h2{
+  font-size: 24px;
+}
+.article h3{
+  font-size: 22px;
+}
+.article h4{
+  font-size: 20px;
+}
+.article h5{
+  font-size: 18px;
+}
+.article h6{
+  font-size:16px;
+}
+.article p{
+  margin-bottom: 2.5rem;
+}
+.tags_main p{
+  margin:0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  line-height: 1.4em;
+}
+@media screen and (max-width:768px){
+  .article pre code{
+    font-size: 14px;
+  }
+  .article h1{
+    font-size: 24px;
+  }
+  .article h2{
+    font-size: 22px;
+  }
+  .article h3{
+    font-size: 20px;
+  }
+  .article h4{
+    font-size: 18px;
+  }
+  .article h5{
+    font-size: 16px;
+  }
+  .article h6{
+    font-size:14px;
+  }
+  p code{
+    font-size: 12px;
+  }
+}
