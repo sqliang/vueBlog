@@ -37,7 +37,7 @@
   </el-row>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import api from '../../api/index'
 import marked from 'marked';
 import hlj from 'highlight.js'

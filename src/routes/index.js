@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import store from '../store'
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 import routes from './routes'
 // 滚动条滚回顶部
 const scrollBehavior =(to, from, savedPosition)=> {

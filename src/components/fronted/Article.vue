@@ -10,7 +10,7 @@
 </article>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import api from '../../api'
 export default {
   data(){

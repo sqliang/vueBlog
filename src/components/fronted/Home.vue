@@ -20,7 +20,7 @@
     </div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vhead from './vheader'
 import api from '../../api'
 import vfoot from './vfooter'

@@ -43,7 +43,7 @@
   </el-row>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import axios from 'axios'
 import api from '../../api'
 import NProgress from 'nprogress'

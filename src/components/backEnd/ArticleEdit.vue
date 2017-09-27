@@ -37,7 +37,7 @@
   </el-row>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import api from '../../api/index'
 import marked from 'marked';
 import hlj from 'highlight.js'
@@ -67,17 +67,6 @@ export default {
       load:false,
       btnText:"立即更新",
       listLoading:false
-    }
-  },
-  computed:{
-    markedToHtml(){
-      marked.setOptions({
-        highlight: function (code) {
-        return hlj.highlightAuto(code).value;
-        }
-      });
-      // console.log(this.article.content);
-      return marked(this.article.content);
     }
   },
   methods:{

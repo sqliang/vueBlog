@@ -17,7 +17,7 @@
     </header>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import {mapState} from 'vuex'
 export default {
   data(){

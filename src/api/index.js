@@ -31,7 +31,7 @@ front_instance.interceptors.response.use(response=>{
 },err=>{
   store.dispatch('showProgress',100)
   return Promise.reject(err)
-})
+});
 export default {
   // 注册
   localReg(data){

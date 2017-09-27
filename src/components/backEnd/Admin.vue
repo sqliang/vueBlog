@@ -50,7 +50,7 @@
   </el-row>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import {mapActions} from 'vuex'
 export default {
   data(){

@@ -28,7 +28,7 @@
   </div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import api from '../../api'
 import vfoot from './vfooter'
 export default {
